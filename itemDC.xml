@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="Tesori di Lucrezia Borgia">
+	<item n="1" xml:id="Inventario del Guardaroba">
+		<dc:identifier>file:///Users/giuliasanguin/Desktop/ProgettoDH/item.html</dc:identifier>
+		<dc:title>Inventario del Guardaroba 1502-1503</dc:title>
+		<dc:description>
+			<img source="immagini/guardarobacoperta.jpg"/>L'<work>Inventario del Guardaroba</work> è stato redatto negli anni <date>1502-1503</date>, secondo un progetto unitario e consecutivo. Nel <date>1504</date>, tra il <date>10 e il 24 febbraio</date>, si è provveduto a una completa revisione e integrazione, con aggiunte, espunzioni e integrazioni. in sostanza, per la sua fattura materiale e per il contenuto, l'<work>Inventario</work> si può definire un documento d'apparato, rappresentazione materiale del patrimonio dotale della giovane <person>Lucrezia Borgia</person> giunta alla Corte ferrarese da Roma.
+			Nel registro è elencata una collezione straordinaria di vestiti femminili realizzati in tessuti costosi; comprende anche due dozzine di mantelle e la collezione di scarpe della duchessa. Sono descritti anche i guanti e i ventagli. Oltre all'elenco lunghissimo relativo all'abbigliamento, nell'inventario troviamo altri oggetti: confettiere, fiaschi, tazze, piatti. Gli oggetti più numerosi sono i tessuti, molti usati per confezionare vestiti, altri destinati a coprire le pareti delle camere personali di <person>Lucrezia</person>. Ci sono anche borse, cuffie, coppe, sigilli, medaglie, e bottoni.
+			In ultimo, a conclusione dell’<work>Inventario del Guardaroba</work>, cc. 127-128, dopo abiti, tessuti, arredi e accessori di varia natura, sono registrati quindici libri che <person>Lucrezia</person> portò con sé da Roma a Ferrara. Questi non rivestivano soltanto un valore patrimoniale, anche qualora si trattasse di opere rare o preziosamente miniate, ma che aveva prevalentemente un valore morale e spirituale.
+		</dc:description>
+		<dc:creator ref="https://viaf.org/viaf/14809783/">Lucrezia Borgia</dc:creator>
+		<dc:date type="subject">1480-1519</dc:date>
+		<dc:date type="creation">1502-1504</dc:date>
+		<dc:language>IT</dc:language>
+		<dc:coverage>Italy</dc:coverage>
+		<dc:subject>Inventario di beni, Registro di Amministrazione</dc:subject>
+		<dc:type>Register</dc:type>
+		<dc:type>Manuscript</dc:type>
+		<dc:format>128 folios; paper; 205x320 millimeters</dc:format>
+		<dc:provenance>Archivio di Stato di Modena</dc:provenance>
+		<dc:relation>Inventario delle Gioie 1516-1519</dc:relation>
+	</item>
+</collection>

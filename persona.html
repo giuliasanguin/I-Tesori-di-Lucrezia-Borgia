@@ -1,0 +1,262 @@
+<!doctype html> 
+  <html>
+  <html lang="it">
+
+  <!-- head -->
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial scale=1.0"/>
+    <!-- il titolo -->
+    <title>I Tesori di Lucrezia Borgia</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon4.ico"/>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!-- css esterno-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <!-- body -->
+  <body>
+    <!--header-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">I Tesori di Lucrezia Borgia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <i class="bi bi-house"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Progetto <i class="bi bi-columns-gap"></i></a>
+          </li>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catalogo <i class="bi bi-folder2-open"></i></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="lista.html">Collezione completa/Lista</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Linea del tempo</a>
+              <a class="dropdown-item" href="#">Tipologia</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contatti" tabindex="-1" aria-disabled="true">Contatti <i class="bi bi-people"></i></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Cosa cerchi?" aria-label="search">
+          <button class="btn btn-black my-2 my-sm-0" type="submit">Cerca</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <main class="background-yellow pt-5 pb-5">
+    <!--titolo pagina-->
+    <section class="container-fluid background-red fixed-local" id="su">
+      <div class="row">
+        <div class="col-md-12 pt-5 pb-5">
+          <h1 class="titologiallo text-center"><i class="bi bi-file-person"></i> Borgia, Lucrezia<h1>
+          </div>
+        </section>
+
+        <div class="container-fluid">
+          <!--aside-->
+          <div class="row">
+            <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+              <aside>
+                <!-- per tornare alla home e percorso nel sito-->        
+                <nav aria-label="breadcrumb" id="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html" class="link" title="Torna a Home"><i class="bi bi-house"></i></a></li>
+                    <li class="breadcrumb-item"><i class="bi bi-folder2-open"></i></li>
+                    <li class="breadcrumb-item"><a href="lista.html" class="link" title="Torna a Collezione completa"><i class="bi bi-collection"></i></a></li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="item.html" class="link" title="Torna all'item selezionato">Item</a></li>
+                    <li class="breadcrumb-item" aria-current="page"><i class="bi bi-file-person"></i></li>
+                  </ol>
+                </nav>    
+                <!-- linea divisoria -->
+                <div class="dropdown-divider" style="border-color: #5e080a;"></div>
+                <!-- bottone scarica e condividi -->
+                <div class="text-center pt-5 pb-5">
+                  <button class="btn btn-secondary" title="Condividi" alt="Condividi" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="bi bi-share"></i>
+                  </button>
+                  <button class="btn btn-secondary" title="Scarica immagine" alt="download immagini" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="bi bi-download"></i>
+                  </button>
+                </div>
+                <!-- linea divisoria -->
+                <div class="dropdown-divider" style="border-color: #5e080a;"></div>
+                <!-- CARD Item correlati -->
+                <h3 class="pt-4 text-justify">Item correlati:</h3>
+                <div class="card mt-3" style="background-color: #ffffff;">
+                  <img src="Immagini/gioiecoperta.jpg" class="card-img-top2" alt="Inventario delle Gioie di Lucrezia Borgia, 1516-1519, Archivio di Stato di Modena">
+                  <div class="card-body">
+                    <h4 class="card-title text-center"><b>L'Inventario delle Gioie</b></h4>
+                    <p class="card-text">Creatore: <b><a class="link" href="https://viaf.org/viaf/14809783/#Borgia,_Lucrezia,_1480-1519" target="_blank" title="Identificativo VIAF di Borgia, Lucrezia">Borgia, Lucrezia<sup>VIAF</sup></a></b></p>
+                    <p class="card-text">Data: <b>1516-1519</b></p>
+                    <p class="card-text">Istituzione fornitrice: <b><a class="link" href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Modena" target="_blank" title="Pagina wikipedia ASMO">Archivio di Stato di Modena<sup>Wikipedia</sup></a></b></p>
+                    <p class="card-text">Tipologia: <i class="bi2 bi-card-image" title="Inventario"></i></p>
+                    <a href="#" class="btn btn-secondary" title="Tutti i metadati">Tutti i metadati</a>
+                  </div>
+                </div>
+                
+                <div class="card mt-3" style="background-color: #ffffff;">
+                  <img src="Immagini/libri.jpg" class="card-img-top2" alt="I libri di Lucrezia Borgia d'Este">
+                  <div class="card-body">
+                    <h4 class="card-title text-center"><b>I libri di Lucrezia</b></h4>
+                    <p class="card-text">Creatore: <b><a class="link" href="https://viaf.org/viaf/14809783/#Borgia,_Lucrezia,_1480-1519" target="_blank" title="Identificativo VIAF di Borgia, Lucrezia">Borgia, Lucrezia<sup>VIAF</sup></a></b></p>
+                    <p class="card-text">Data: <b>1502-1504</b></p>
+                    <p class="card-text">Istituzione fornitrice: <b><a class="link" href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Modena" target="_blank" title="Pagina wikipedia ASMO">Archivio di Stato di Modena<sup>Wikipedia</sup></a></b></p>
+                    <p class="card-text">Tipologia: <i class="bi2 bi-card-image" title="Inventario"></i></p>
+                    <a href="#" class="btn btn-secondary" title="Tutti i metadati">Tutti i metadati</a>
+                  </div>
+                </div>
+                <!-- linea divisoria -->
+                <div class="dropdown-divider mt-3 mb-3" style="border-color: #5e080a;"></div>
+              </aside>
+            </div>
+
+            <!-- card persona-->
+            <div class="col-md-8 col-sm-8 col-xs-12 mt-4">
+              <div class="row">
+                <div class="card w-100">
+                  <img src="Immagini/lucreziaborgia.jpeg" class="mx-auto d-block" alt="Ritratto di donna,presunto ritratto di Lucrezia Borgia,Bartolomeo Veneto" title="Ritratto di donna, presunto ritratto di Lucrezia Borgia, Bartolomeo Veneto, 1500-1510 ca., olio su legno">
+                  <!-- metadati -->
+                  <div class="card-body mt-3">
+                    <p class="card-text"><em>Tipologia di soggetto produttore:</em> <b>Persona</b></p>
+                    <hr>
+                    <p class="card-text"><span><em>Cognome, Nome:</em></span> <b><a class="link" href="https://viaf.org/viaf/14809783/#Borgia,_Lucrezia,_1480-1519" target="_blank" title="Identificativo VIAF di Borgia, Lucrezia">Borgia, Lucrezia<sup>VIAF</sup> </a></b></p>
+                    <hr>
+                    <p class="card-text"><span><em>Sesso:</em></span> <b>F</b>
+                      <hr>
+                      <p class="card-text"><span><em>Date di esistenza:</em></span> <b>18 aprile 1480 - 24 giugno 1519</b></p>
+                      <hr>
+                      <p class="card-text"><span><em>Luogo di nascita:</em></span> <b><a class="link" href="https://www.geonames.org/6540526/subiaco.html" target="_blank" title="Identificativo GeoNames">Subiaco<sup>GeoNames</sup></a></b></p>
+                      <hr>
+                      <p class="card-text"><span><em>Luogo di morte:</em></span> <b><a class="link" href="https://www.geonames.org/6542120/ferrara.html" target="_blank" title="Identificativo GeoNames">Ferrara<sup>GeoNames</sup></a></b></p> 
+                      <hr>
+                      <p class="card-text"><span><em>Funzioni, occupazioni e attività:</em></span>
+                        <ul>
+                          <li><b>Duchessa consorte di Ferrara, Modena e Reggio</b></li>
+                          <li><b>Duchessa consorte di Bisceglie e Principessa consorte di Salerno</b></li>
+                          <li><b>Signora consorte di Pesaro e Gradara e Contessa consorte di Cotignola</b></li>
+                          <li><b>Governatrice di Spoleto</b></li>
+                          <li><b>Reggente dello Stato Pontificio</b></li>
+                          <li><b>Reggente del Ducato di Ferrara</b></li>
+                        </ul></p>
+                        <hr>
+                        <p class="card-text"><span><em>Famiglia correlata:</em></span> <b><a class="link" href="https://it.wikipedia.org/wiki/Borgia" target="_blank" title="Pagina Wikipedia della dinastia Borgia">Borgia<sup>Wikipedia</sup> </a></b></p>
+                        <hr>
+                        <p class="card-text"><span><em>Persone correlate (e relazione):</em></span> 
+                          <ul>
+                            <li><b>[padre] Borgia, Rodrigo poi <a class="link" href="http://viaf.org/viaf/2501524/#Alexander_VI,_Pope,_1431-1503" target="_blank" title="Identificativo VIAF di Papa Alessandro VI ">Papa Alessandro VI<sup>VIAF</sup> </a></b></p></li>
+                            <li><b>[coniuge] <a class="link" href="http://viaf.org/viaf/47831106/#Sforza,_Giovanni,_1466-1510" target="_blank" title="Identificativo VIAF di Sforza,Giovanni">Sforza, Giovanni<sup>VIAF</sup> </a></b></p></li>
+                            <li><b>[coniuge] <a class="link" href="http://viaf.org/viaf/55454909/#Alfonso_d'Aragona" target="_blank" title="Identificativo VIAF D'Aragona, Alfonso ">D'Aragona, Alfonso<sup>VIAF</sup> </a></b></p></li>
+                            <li><b>[coniuge] <a class="link" href="http://viaf.org/viaf/13192005/#Alphonse_1476-1534_duc_de_Ferrare_I" target="_blank" title="Identificativo VIAF di Este, Alfonso d' ">Este, Alfonso d'<sup>VIAF</sup> </a></b></p></li>
+                            <li></li>
+                          </ul>
+                          <hr>
+                          <p class="card-text"><span><em>Pagina Wikipedia:</em></span> <b><a class="link" href="https://it.wikipedia.org/wiki/Lucrezia_Borgia" target="_blank" title="Pagina Wikipedia di Lucrezia Borgia">Lucrezia Borgia<sup>Wikipedia</sup> </a></b></p>
+                          <hr>
+                          <p class="card-text"><span><em>Controllo di autorità:</em></span>
+                            <ul>
+                              <li><b><a class="link" href="https://viaf.org/viaf/14809783/" target="_blank" title="Identificativo VIAF">14809783<sup>VIAF</sup></a></b></li>
+                              <li><b><a class="link" href="https://isni.oclc.org/xslt/DB=1.2//CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000000108719739&TERMS_OF_USE_AGREED=Y&terms_of_use_agree=send" target="_blank" title="Identificativo ISNI">0000 0001 0871 9739<sup>ISNI </sup></a></b></li>
+                              <li><b><a class="link" href="https://opac.sbn.it/opacsbn/opac/iccu/scheda_authority.jsp?bid=RAVV050332" target="_blank" title="Identificativo SBN">IT\ICCU\RAVV\050332<sup>SBN</sup></a></b></li>
+                              <li><b><a class="link" href="https://id.loc.gov/authorities/names/n50048225.html" target="_blank" title="Identificativo LCCN">n50048225<sup>LCCN</sup></a></b></li>
+                              <li><b><a class="link" href="https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=nid%3D118574825" target="_blank" title="Identificativo GND">118574825<sup>GND</sup></a></b></li>
+                              <li><b><a class="link" href="https://catalogue.bnf.fr/ark:/12148/cb121612955" target="_blank" title="Identificativo BNF">cb121612955<sup>BNF</sup></a></b></li>
+                              <li><b><a class="link" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX862368" target="_blank" title="Identificativo BNE">XX862368<sup>BNE</sup></a></b></li>
+                              <li><b><a class="link" href="https://opac.vatlib.it/auth/detail/495_95928" target="_blank" title="Identificativo BAV">495/95928<sup>BAV</sup></a></b></li>
+                              <li><b><a class="link" href="https://data.cerl.org/thesaurus/cnp01877382" target="_blank" title="Identificativo CERL">cnp01328120<sup>CERL</sup></a></b></li>
+                              <li><b><a class="link" href="https://id.ndl.go.jp/auth/ndlna/00620400" target="_blank" title="Identificativo NDL">00620400<sup>NDL</sup></a></b></li>
+                              <li><b><a class="link" href="https://www.worldcat.org/identities/lccn-n50048225/" target="_blank" title="Identificativo WorldCat Identities">lccn-n50048225<sup>WorldCat Identities</sup></a></b></li>
+                              <hr>
+                              <div class="text-center">
+                                <p class="card-text"><h4>Visualizza:</h4></p>
+                                <a href="eaccpf.xml" class="btn btn-secondary" title="Vai al codice xml/eac"><i class="bi bi-code-square"></i> XML/EAC</a>
+                              </ul>
+                            </p>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--sidebar dx--> 
+                    <!--informazioni--> 
+                    <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+                      <aside>
+                        <div>
+                          <a href="#" class="link mt-5" title="Informazioni"><i class="bi bi-question-square"></i> <span>Informazioni</span></a>
+                        </div>
+                        <!-- linea divisoria  -->
+                        <div class="dropdown-divider mt-4" style="border-color: #5e080a;"></div>
+                        <!--curiosità-->  
+                        <h3 class="pt-4 text-justify">Curiosità:</h3>
+                        <div class="card mt-3" style="background-color: #ffffff;">
+                          <img src="Immagini/curiosita.jpeg" class="card-img-top2" alt="Particolare di Lucrezia Borgia con lenza e gioiello oro in testa, Madonna dei Raccomandati di Cola da Orte (con modiche grafiche)">
+                          <div class="card-body">
+                            <p class="card-text">Lucrezia Borgia ha stuzzicato l'immaginario collettivo ed è stata <b>uno dei personaggi più emblematici</b> del Rinascimento, da sempre al centro di scandali e leggende. Eppure, tutte <b>le opere che la ritraggono non sono certe</b>. Solo da poco è stato identificato con certezza il ritratto eseguito da Dosso Dossi, presente in collezione. 
+                              <a href="http://www1.adnkronos.com/Archivio/AdnAgenzia/2008/11/25/Cultura/Arte/ARTE-LUCREZIA-BORGIA-IDENTIFICATO-IL-PRIMO-RITRATTO-DELLA-DUCHESSA-DI-FERRARA_161221.php" class="btn btn-secondary mt-2" target="_blank" title="Leggi l'articolo">Leggi l'articolo</a>
+                              <a href="#" class="btn btn-secondary mt-2" target="_blank" title="Collegamento all'item">Vai all'item Ritratto di Lucrezia Borgia</a>
+                            </div>
+                          </div>
+                          <!-- linea divisoria -->
+                          <div class="dropdown-divider mt-3 mb-3" style="border-color: #5e080a;"></div>
+                          <!-- Treccani -->
+                          <h3 class="pt-4 text-justify">Se vuoi saperne di più:</h3>
+                          <div class="card mt-3" style="background-color: #ffffff;">
+                            <a href="https://www.treccani.it/enciclopedia/lucrezia-borgia-duchessa-di-ferrara_%28Dizionario-Biografico%29/" target="_blank" alt="Vai alla Pagina di Lucrezia Borgia sul Dizionario biografico degli Italiani della Treccani"><img src="Immagini/treccani.png" class="card-img" title="Pagina di Lucrezia Borgia sul Dizionario biografico degli Italiani della Treccani"></a>
+                          </div>
+
+                        </aside>
+                      </div>
+                    </div>
+                  </section>
+                </main>
+
+                <!-- torna su-->
+                <section class="container-fluid bg-dark pt-1" title="Torna su">
+                 <p align="center"><a href="#su" class="linktornasu"><i class="bi bi-arrow-up-square"></i></a></p>
+               </section>
+
+               <!--footer-->
+               <footer>
+                <div class= "container-fluid background-dark pt-3 pb-3" id="contatti">
+                  <p class="text-justify ml-3 mr-3 pt-3">Questo progetto è stato realizzato ai fini della prova d'esame del corso Digital Humanities e patrimonio culturale, tenuto dalla prof.ssa Francesca Tomasi, nell'ambito del corso di laurea in Italianistica dell'Università di Bologna. Si ringrazia per la collaborazione Lorenza Iannacci, direttrice dell'Archivio di Stato di Modena.</p>
+                  <div class="row">
+                    <div class="col-md-6 mt-2">
+                      <h5 class="text-justify ml-3"><b>I Tesori di Lucrezia Borgia</b></h5>
+                      <ul>
+                        <li><a class="link" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                          title="Licenza Creative Commons"><img alt="Licenza Creative Commons" style="width: 60px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/> Licenza</a></li>
+                          <li>&copy; Giulia Sanguin</a></li>
+                          <li><i class="bi bi-envelope"></i> Per contattarmi scrivi a <a class="scrivimi" href="mailto:giulia.sanguin@studio.unibo.it" target="_blank">giulia.sanguin@studio.unibo.it</a></li>
+                          <li><a class="digitalhumanitiesepatrimonioculturale" href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/444725" target="_blank">Digital Humanities e Patrimonio culturale, A.a. 2020/2021</a></li>
+                          <li><a class="italianistica" href="https://corsi.unibo.it/magistrale/ItalianisticaCultureLetterarieLinguistica" target="_blank">Corso di Laurea in Italianistica</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6 mt-2">
+                        <h5 class="text-justify ml-3"><b>Archivio di Stato di Modena<b></h5>
+                          <a class="link ml-5" href="https://www.asmo.beniculturali.it/home" target="_blank" title="Sito ufficiale ASMO"><img src="Immagini/asmologo.jpeg" class="logoasmo" alt="Logo Archivio di Stato di Modena"/></a>
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+
+                  <!-- script bootstrap-->
+                  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+                  <!-- bootstrap js -->
+                  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+                </body>
+                </html>
+

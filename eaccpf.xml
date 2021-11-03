@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eac-cpf>
+	<control>
+		<recordId localType="VIAF">14809783</recordId>
+		<otherRecordId localType="ISNI">0000 0001 0871 9739</otherRecordId>
+		<otherRecordId localType="SBN">IT\ICCU\RAVV\050332</otherRecordId>
+		<otherRecordId localType="LCCN">n50048225</otherRecordId>
+		<otherRecordId localType="GND">118574825</otherRecordId>
+		<otherRecordId localType="BNF">cb121612955</otherRecordId>
+		<otherRecordId localType="BNE">XX862368</otherRecordId>
+		<otherRecordId localType="BAV">495/95928</otherRecordId>
+		<otherRecordId localType="CERL">cnp01328120</otherRecordId>
+		<otherRecordId localType="NDL">00620400</otherRecordId>
+		<otherRecordId localType="WorldCat Identities">lccn-n50048225</otherRecordId>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>Università di Bologna</agencyName>
+		</maintenanceAgency>
+		<languageDeclaration>
+			<language languageCode="it">italiano</language>
+		</languageDeclaration>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="31-10-2021"/>
+				<agentType>human</agentType>
+				<agent>GS</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<sources>
+			<source>
+				<sourceEntry>Archivio di Stato di Modena</sourceEntry>
+			</source>
+		</sources>
+	</control>
+	<cpfDescription>
+		<identity>
+			<entityType>Persona</entityType>
+			<nameEntry>
+				<part localType="cognome">Borgia</part>
+				<part localType="nome">Lucrezia</part>
+				<part localType="date biografiche">(1480-1519)</part>
+			</nameEntry>
+			<nameEntryParallel>
+				<nameEntry>
+					<part>Borgia, Lucrèce (1480-1519)</part>
+				</nameEntry>
+				<nameEntry>
+					<part></part>
+				</nameEntry>
+				<nameEntry>
+					<part>Borja, Lucrècia (1480-1519)</part>
+				</nameEntry>
+			</nameEntryParallel>
+		</identity>
+		<description>
+			<existDates>
+				<dateRange>
+					<fromDate standardDate="18-04-1480">18-04-1480</fromDate>
+					<toDate standardDate="24-06-1519">24-06-1519</toDate>
+				</dateRange>
+			</existDates>
+			<places>
+				<place>
+					<placeRole>Nascita</placeRole>
+					<placeEntry>Subiaco</placeEntry>
+				</place>
+				<place>
+					<placeRole>Morte</placeRole>
+					<placeEntry>Ferrara</placeEntry>
+				</place>
+			</places>
+			<occupations>
+				<occupation>
+					<term>Duchessa consorte di Ferrara, Modena e Reggio</term>
+					<term>Duchessa consorte di Bisceglie e Principessa consorte di Salerno</term>
+					<term>Signora consorte di Pesaro e Gradara e Contessa consorte di Cotignola</term>
+					<term>Governatrice di Spoleto</term>
+					<term>Reggente del Ducato di Ferrara</term>
+				</occupation>
+			</occupations>
+		</description>
+		<relations>
+			<cpfRelation cpfRelationType="padre">
+				<relationEntry>Borgia, Rodrigo poi Papa Alessandro VI</relationEntry>
+			</cpfRelation>
+			<cpfRelation cpfRelationType="coniuge">
+				<relationEntry>Sforza, Giovanni</relationEntry>
+			</cpfRelation>
+			<cpfRelation cpfRelationType="coniuge">
+				<relationEntry>D'Aragona, Alfonso</relationEntry>
+			</cpfRelation>
+			<cpfRelation cpfRelationType="coniuge">
+				<relationEntry>D'Este, Alfonso</relationEntry>
+			</cpfRelation>
+		</relations>
+	</cpfDescription>
+</eac-cpf>

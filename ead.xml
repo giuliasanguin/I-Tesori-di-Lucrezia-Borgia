@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead>
+    <archdesc level="file">
+        <did>
+            <unitid countrycode="IT">ASMo, Archivio Segreto Estense, Camera ducale, Amministrazione dei Principi, reg. 1137</unitid>
+            <unittitle>Inventario del Guardaroba 1502-1503</unittitle>
+            <unitdate>1502/1504</unitdate>
+            <repository>Archivio di Stato di Modena</repository>
+            <physloc>Archivio di Stato di Modena, Archivio Segreto estense, Camera ducale, Amministrazione dei Principi</physloc>
+            <langmaterial>
+                <language>italian</language>
+            </langmaterial>
+            <physdesc>
+                cc. 128
+                <dimensions>mm. 205x320</dimensions>
+            </physdesc>
+            <origination label="soggettoproduttore">
+                <persname>Lucrezia Borgia</persname>
+            </origination>
+        </did>
+        <bioghist>
+            <p>L'Inventario del Guardaroba è stato redatto negli anni 1502-1503, secondo un progetto unitario e consecutivo. Nel 1504, tra il 10 e il 24 febbraio, si è provveduto a una completa revisione e integrazione, con aggiunte, espunzioni e integrazioni. in sostanza, per la sua fattura materiale e per il contenuto, l'Inventario si può definire un documento d'apparato, rappresentazione materiale del patrimonio dotale della giovane Lucrezia Borgia giunta alla Corte ferrarese da Roma.</p>
+        </bioghist>
+        <originalsloc>
+            <p>ASMo, Archivio di Stato di Modena</p>
+        </originalsloc>
+        <relatedmaterial>
+            <p>Inventario delle gioie 1516-1519</p>
+        </relatedmaterial>
+        <otherfindaid>
+            <p>Diane Ghirardo, I Tesori di Lucrezia Borgia d'Este, Edizioni Golinelli, Formigine (Mo), 2019</p>
+        </otherfindaid>
+    </archdesc>
+</ead>

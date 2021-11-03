@@ -1,0 +1,85 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Digitalizzazione delle cc.36s-36d dell'Inventario del Guardaroba di Lucrezia Borgia</title>
+				<respStmt>
+					<resp>Editor</resp>
+					<name xml:id="GS">Giulia Sanguin</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Sito web I Tesori di Lucrezia Borgia</publisher>
+				<date>2021</date>
+				<availability status="limited">
+					<p>Copyright 2021, Giulia Sanguin</p>
+					<p>Not for distribution.</p>
+					<licence target="https://creativecommons.org/">Creative Commons Attribuzione 4.0 Internazionale</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc type="inventory">
+					<msIdentifier>
+						<settlement>Modena</settlement>
+						<institution>ASMo, Archivio di Stato di Modena</institution>
+						<repository>Archivio Segreto estense, Camera ducale</repository> 
+						<collection>Amministrazione dei Principi</collection>
+						<idno>reg. 1137, Inventario del Guardaroba 1502-1503</idno> 
+					</msIdentifier>
+					<head>Inventario del Guardaroba 1502-1503</head>
+					<msContent>
+						<summary>Inventario del guardaroba di Lucrezia Borgia comprende vestiti, scarpe, accessori (come guanti e ventagli), oggetti della casa (confettiere, fiaschi, tazze, piatti), tessuti, sigilli, medaglie, bottoni e libri.</summary>
+					</msContent>
+					<physDesc>
+						<supportDesc>Registro <material>cartaceo</material>, con coperta <material>pergamenacea</material> sulla quale è riportato il titolo di mano coeva, rifinito da corregge in <material>cuoio</material> originali</supportDesc>
+						<extent>cc. 128</extent>
+						<dimensions unit="mm">
+							<width>205</width>
+							<height>320</height>
+						</dimensions>
+						<foliation xml:id="originale">Le carte sono numerate con numeri romani nel margine esterno della pagina. A destra le carte recto e a sinistra le carte verso.
+						</foliation>
+						<condition>Perfettamente conservato</condition>
+						<handDesc>
+							<handNote>L'Inventario è stato redatto da un'unica mano, la stessa che si è occupata della revisione completa nel 1504.</handNote>
+						</handDesc>
+						<scriptDesc>Corsiva umanistica</scriptDesc>
+					</physDesc>
+					<history>
+						<origin>L'Inventario del Guardaroba è stato redatto negli anni 1502-1503, dall'arrivo di Lucrezia Borgia a Ferrara secondo un progetto unitario e consecutivo. Nel 1504, tra il 10 e il 24 febbraio, si è provveduto a una completa revisione e integrazione, con aggiunte, espunzioni e integrazioni.</origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Digitalizzazione eseguita ai fini della prova d'esame di Digital Humanities e patrimonio culturale, corso di laurea in Italianistica, a.a.2020-2021</p>
+			</projectDesc>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb xml:id="c.36s"/>[36s]
+			<list rend="simple">
+				<head>Roboni a la spagnola</head>
+				<item n="1">Uno <objectName>robon</objectName> de <material>raso</material> cremexino, fodrato de <objectName>martori</objectName> zebellini.
+				La qual <objectName>fodra</objectName> fu a la turcha ongarescha.</item>
+				<item n="2">Uno <objectName>robon</objectName> de <material>raso</material> negro, fodrato de lupi de <placeName>Spagna</placeName>. La dita fodra fu posta in uno <objectName>robon</objectName> de <material>raso</material> lionado.
+				A dì <date>11 de novembre</date> de una <objectName>manega</objectName> de deto <objectName>robon</objectName> se n’è fato dua para de <objectName>manege</objectName> strette per la <persName xml:id="Borgia">signora</persName>.</item>
+				<item n="3">Uno <objectName>robon</objectName> de tabi biancho barato a modo de samare, con bare di tella d’oro cuperte de <material>raxo</material> biancho taiato, fodrato de ermelini.</item>
+				<item n="4">Uno <objectName>robon</objectName> de <material>raso</material> negro vechio, senza manege, senza <objectName>fodra</objectName>.</item>
+				<item n="5">Uno <objectName>robon</objectName> de damascho pavonazo vechio, senza <objectName>fodra</objectName>.</item>
+				<item n="6">Una <objectName>giubiglia</objectName> morescha de <material>raso</material> carmexin pavonazo, como uno frixo atorno de litere moresche d’oro fila<add>‹ta›</add>, fodrata d’armelini.
+				La dita <objectName>fodra</objectName> se ne fodrò el <objectName>robon</objectName> de tabi biancho.</item>
+				<pb xml:id="c.36d"/>[36d]
+				<item n="7">Uno <objectName>saglio</objectName> fato a la morescha, mezo <material>raso</material> cremexin e mezo <material>raso</material> bertin, con certi passaman d’oro senza <objectName>fodra</objectName> e <objectName>manege</objectName>, como una reversa de oro de canotiglio.</item>
+				<item n="8">Uno <objectName>robon</objectName> de <material>panno</material> negro vechio pasamanato, senza <objectName>manege</objectName>.</item>
+				<item n="9">(Una <objectName>fodra</objectName> de <objectName>robon</objectName> de <material>tafeta</material> negro, senza <objectName>manege</objectName>.)
+				La dita <objectName>fodra</objectName> se posse a fodrare una <objectName>manege</objectName> de una <objectName>vesta</objectName> di <material>tabi</material> negro, e busto a la baschina de <material>veluto</material> negro.</item>
+				<item n="10">Uno <objectName>robon</objectName> de <material>raxo</material> morello pavonazo, senza fodra.</item>
+				<item n="11">Uno <objectName>robon</objectName> de <material>tabi</material> negro a modo de samara, guarnito de <material>raxo</material> negro desfodrato.</item>
+				<item n="12">Uno <objectName>robon</objectName> de <material>panno</material> biancho bigarato de <material>raxo</material> biancho a trinne.</item>
+		</list>
+	</body>
+</text>
+</TEI>

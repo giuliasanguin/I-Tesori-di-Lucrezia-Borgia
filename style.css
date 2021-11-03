@@ -1,0 +1,123 @@
+/* font di Google */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* html font senza scalettatura */
+html {scroll-behavior: smooth; -webkit-font-smoothing: antialiased;}
+
+/* titoli */
+h1, h2, h3, h4, h5, h6 {font-family: 'Playfair Display', serif;
+                        font-style: bold;}
+.titologiallo {color: #ebd9c6;}
+.titolopagina {color:  #ffffff;}
+
+/* navbar */
+.bg-dark {background-color: #5e080a !important;}
+.dropdown-item:hover {background-color: #862d2d !important;}
+.navbar-brand {font-family: 'Playfair Display', serif;
+            font-size: 2em; 
+            color: #ebd9c6 !important; 
+}
+
+/* breadcrumb */
+.breadcrumb {background-color: #ebd9c6;}
+
+/* bottoni*/
+.btn-black {border: 1px solid #ffffff; color: #ffffff !important;}
+.btn-black:hover {background-color: #862d2d; border: 1px solid #732626 !important;}
+.btn-secondary: {background-color: #a5a4ab ; border: 1px solid #732626 !important;}
+.btn-secondary:hover {background-color: #862d2d; border: 1px solid #732626 !important;}
+.btn-secondary2 {background-color: #5e080a;
+                color:  #ffffff}
+.btn-secondary2:hover {background-color: #5e080a;
+                        color: #ebd9c6;}
+
+/* card generali */
+.card {background-color: #ebd9c6;
+                  border-radius: 2em;}
+.card-body { margin-left: 10px; margin-right: 10px;}
+.card-item {background-color: #ffffff;}
+.card-img-top  {height: 370px; width: 200px auto !important;}
+.card-img-top2 {height: 270px; width: 100px auto !important;}
+
+/* card scopri di più index */
+.card1 {background-color: #ebd9c6;
+            border-radius: 2em;}
+
+/* carosello */
+.carousel-item img{height: 370px; width: 200px auto !important;}
+
+/* container sfondo giallo */
+.background-yellow {background-color: #ebd9c6;}
+
+/* container sfondo rosso */
+.background-red {background-color: #5e080a;}
+
+/* container sfondo bianco*/
+.bg-white {background-color: #ffffff;}
+
+/* container sfondo grigio footer */
+.background-dark {color: #6c737b}
+
+/* icona rossa card */
+.bi2 {color: #5e080a;}
+
+/* immagini background index*/ 
+.bgimg {
+	background-image: url("Immagini/sfondo1.jpeg");
+   min-height: 900px;
+   background-attachment: local;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.bgimg2 {background-image: url("Immagini/lucreziavaticano_Cowper.jpeg");
+      min-height: 800px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+ .bgimg3 {background-image: url("Immagini/vaticano_pinturicchio.jpeg");
+          min-height: 800px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+/* link class link */
+.link:link, .link:visited {text-decoration: none;
+                        color: #862d2d ;}
+.link:hover {text-decoration: underline;
+                        color: #862d2d;}
+
+/* link footer */       
+.scrivimi, .digitalhumanitiesepatrimonioculturale, .italianistica {text-decoration: none;
+color: #5e080a ;}
+.scrivimi:visited, .digitalhumanitiesepatrimonioculturale:visited, .italianistica:visited {text-decoration: none;
+    color: #5e080a ;}
+.scrivimi:hover, .digitalhumanitiesepatrimonioculturale:hover, .italianistica:hover {text-decoration: underline;
+   color: #5e080a;}
+
+/* link bottone torna su */
+.linktornasu:link, .linktornasu:hover, .linktornasu:visited {text-decoration: none;
+       color: white;}
+
+/* lista*/
+li  {list-style: none; margin: 0; padding: 0;}
+
+/* logo Asmo footer */
+.logoasmo {width: 123px; height: 110px;}
+
+/* pagina lista */
+.aside {border-radius: 1em;}
+
+
+
+/* pagination */
+.page-link {color: #ffffff; background-color:#5e080a;}
+.page-link:hover {color: #ffffff; background-color: #5e080a;}
+.page-item.active .page-link {color: #5e080a; background-color:#ebd9c6; border: #ffffff}
+

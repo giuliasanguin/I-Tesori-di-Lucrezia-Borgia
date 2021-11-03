@@ -1,0 +1,419 @@
+<!doctype html> 
+  <html>
+  <html lang="it">
+
+  <!-- head -->
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial scale=1.0"/>
+    <!-- il titolo -->
+    <title>I Tesori di Lucrezia Borgia</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon4.ico"/>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!-- css esterno-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <!-- body -->
+  <body>
+    <!--header-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">I Tesori di Lucrezia Borgia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <i class="bi bi-house"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Progetto <i class="bi bi-columns-gap"></i></a>
+          </li>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catalogo <i class="bi bi-folder2-open"></i></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="lista.html">Collezione completa/Lista</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Linea del tempo</a>
+              <a class="dropdown-item" href="#">Tipologia</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contatti" tabindex="-1" aria-disabled="true">Contatti <i class="bi bi-people"></i></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Cosa cerchi?" aria-label="search">
+          <button class="btn btn-black my-2 my-sm-0" type="submit">Cerca</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <main class="background-yellow pt-5 pb-5">
+    <!--titolo pagina-->
+    <section class="container-fluid background-red" id="su">
+      <div class="row">
+        <div class="col-md-12 pt-5 pb-5">
+          <h1 class="titologiallo text-center">Catalogo  <span class="text-white"><i class="bi bi-collection"></i> Collezione completa</span></h1>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+      <!--aside-->
+      <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+          <aside>
+            <!-- per tornare alla home-->        
+            <nav aria-label="breadcrumb" id="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html" class="link" title="Torna a Home"><i class="bi bi-house"></i></a></li>
+                <li class="breadcrumb-item"><i class="bi bi-folder2-open"></i></li>
+                <li class="breadcrumb-item" aria-current="page"><i class="bi bi-collection"></i></li>
+              </ol>
+            </nav>    
+            <!-- linea divisoria -->
+            <div class="dropdown-divider" style="border-color: #5e080a;"></div>
+            <!-- ordina la lista -->
+            <div class="container background-yellow pt-3 pb-3 mb-3 aside">
+              <h5>Ordina la lista:</h5>
+              <button class="btn btn-secondary mt-1">A-Z</button>
+              <button class="btn btn-secondary mt-1">Z-A</button>
+            </div>
+            <!-- visualizzazione items per pagina -->
+            <div class="container background-yellow pt-3 pb-3 mb-3 aside">
+              <h5>Elementi per pagina:</h5>
+              <button class="btn btn-secondary mt-1">3</button>
+              <button class="btn btn-secondary mt-1">6</button>
+              <button class="btn btn-secondary active mt-1">12</button>
+            </div>
+            <!-- linea divisoria -->
+            <div class="dropdown-divider" style="border-color: #5e080a;"></div>
+            <!-- altri strumenti per esplorare il catalogo -->
+            <div class="container bg-white pt-3 pb-3 mt-3 mb-3 aside">
+              <h3>Altri strumenti:</h3>
+              <button class="btn btn-secondary mt-1"><i class="bi bi-chevron-double-right"></i>Linea del tempo</button>
+              <button class="btn btn-secondary dropdown-toggle mt-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-file-plus"></i> Tipologia
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Inventari e Registri</a>
+                <a class="dropdown-item" href="#">Immagini</a>
+                <a class="dropdown-item" href="#">Video</a>
+                <a class="dropdown-item" href="#">Altri file</a>
+              </div>
+            </div>
+            <!-- linea divisoria -->
+            <div class="dropdown-divider mt-2" style="border-color:#5e080a;"></div>
+          </aside>
+        </div>
+
+        <div class="col-md-8 col-sm-8 col-xs-12">
+          <div class="row">
+            <!-- item 1 Inventario del Guardaroba-->
+            <div class="col-md-4 mt-4">
+              <div class="card card-item">
+                <img src="Immagini/guardarobacoperta.jpg" class="card-img-top" alt="Inventario del Guardaroba di Lucrezia Borgia, 1502-1504, Archivio di Stato di Modena">
+                <div class="card-body">
+                  <div class="card-metadata">
+                    <h4 class="card-title text-center"><b>L'Inventario del Guardaroba</b></h4>
+                    <p class="card-text">Soggetto produttore: <b><a class="link" href="https://viaf.org/viaf/14809783/#Borgia,_Lucrezia,_1480-1519" target="_blank" title="Identificativo VIAF di Borgia, Lucrezia">Borgia,Lucrezia<sup>VIAF</sup></a></b></p>
+                    <p class="card-text">Data: <b>1502-1504</b></p>
+                    <p class="card-text">Soggetto conservatore: <b><a class="link" href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Modena" target="_blank" title="Pagina wikipedia ASMO">Archivio di Stato di Modena<sup>Wikipedia</sup></a></b></p>
+                    <p class="card-text">Tipologia: <i class="bi2 bi-card-image" title="Inventario"></i></p>
+                  </div>
+                  <a href="item.html" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti i metadati</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- item 2 Inventario delle Gioie-->
+            <div class="col-md-4 mt-4">
+              <div class="card card-item">
+                <img src="Immagini/gioiecoperta.jpg" class="card-img-top" alt="Inventario delle Gioie di Lucrezia Borgia, 1516-1519, Archivio di Stato di Modena">
+                <div class="card-body">
+                  <div class="card-metadata">
+                    <h4 class="card-title text-center"><b>L'Inventario delle Gioie</b></h4>
+                    <p class="card-text">Soggetto produttore: <b><a class="link" href="https://viaf.org/viaf/14809783/#Borgia,_Lucrezia,_1480-1519" target="_blank" title="Identificativo VIAF di Borgia, Lucrezia">Borgia, Lucrezia<sup>VIAF</sup></a></b></p>
+                    <p class="card-text">Data: <b>1516-1519</b></p>
+                    <p class="card-text">Soggetto conservatore: <b><a class="link" href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Modena" target="_blank" title="Pagina wikipedia ASMO">Archivio di Stato di Modena<sup>Wikipedia</sup></a></b></p>
+                    <p class="card-text">Tipologia: <i class="bi2 bi-card-image" title="Inventario"></i></p>
+                  </div>
+                  <a href="#" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+                  i metadati</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- item 3 Biblioteca-->
+            <div class="col-md-4 mt-4">
+              <div class="card card-item">
+                <img src="Immagini/libri.jpg" class="card-img-top"alt="I libri di Lucrezia Borgia d'Este">
+                <div class="card-body">
+                  <div class="card-metadata">
+                    <h4 class="card-title text-center"><b>I libri di Lucrezia Borgia</b></h4>
+                    <p class="card-text">Soggetto produttore: <b><a class="link" href="https://viaf.org/viaf/14809783/#Borgia,_Lucrezia,_1480-1519" target="_blank" title="Identificativo VIAF di Borgia, Lucrezia">Borgia, Lucrezia<sup>VIAF</sup></a></b></p>
+                    <p class="card-text">Data: <b>1502-1504</b></p>
+                    <p class="card-text">Soggetto conservatore: <b><a class="link" href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Modena" target="_blank" title="Pagina wikipedia ASMO">Archivio di Stato di Modena<sup>Wikipedia</sup></a></b></p>
+                    <p class="card-text">Tipologia: <i class="bi2 bi-card-image" title="Inventario"></i></p>
+                  </div>
+                  <a href="#" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+                  i metadati</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- item 4 PDF-->
+            <div class="col-md-4 mt-4">
+              <div class="card card-item">
+              </a><img src="Immagini/imgpdf3.png" class="card-img-top" alt="Approfondimento sugli Apparati da credenza: i preziosi arredi da tavola della duchessa di Ferrara">
+              <div class="card-body">
+                <div class="card-metadata">
+                  <h4 class="card-title text-center"><b>Gli apparati da credenza</b></h4>
+                  <p class="card-text">Creatore: <b>Iannacci, Lorenza - Sabattini, Annalisa</b></p>
+                  <p class="card-text">Data: <b>2021</b></p>
+                  <p class="card-text">Istituzione fornitrice: <b><a class="link" href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Modena" target="_blank" title="Pagina wikipedia ASMO">Archivio di Stato di Modena<sup>Wikipedia</sup></a></b></p>
+                  <p class="card-text">Tipologia: <i class="bi2 bi-file-text-fill" title="testo"></i></p>
+                </div>
+                <a href="#" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+                i metadati</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 5 PDF-->
+          <div class="col-md-4 mt-4">
+            <div class="card card-item">
+            </a><img src="Immagini/imgpdf1.png" class="card-img-top" alt="Approfondimento su Devozione e spiritualità nei gioielli e negli arredi di Lucrezia Borgia">
+            <div class="card-body">
+              <div class="card-metadata">
+                <h4 class="card-title text-center"><b>Devozione e spiritualità</b></h4>
+                <p class="card-text">Creatore: <b>Iannacci, Lorenza - Sabattini, Annalisa</b></p>
+                <p class="card-text">Data: <b>2021</b></p>
+                <p class="card-text">Istituzione fornitrice: <b><a class="link" href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Modena" target="_blank" title="Pagina wikipedia ASMO">Archivio di Stato di Modena<sup>Wikipedia</sup></a></b></p>
+                <p class="card-text">Tipologia: <i class="bi2 bi-file-text-fill" title="testo"></i></p>
+              </div>
+              <a href="#" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+              i metadati</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- item 6 PDF -->
+        <div class="col-md-4 mt-4">
+          <div class="card card-item">
+          </a><img src="Immagini/imgpdf2.png" class="card-img-top" alt="Approfondimento sugli accessori del Guardaroba di Lucrezia Borgia">
+          <div class="card-body">
+            <div class="card-metadata">
+              <h4 class="card-title text-center"><b>Gli accessori del Guardaroba</b></h4>
+              <p class="card-text">Creatore: <b>Iannacci, Lorenza - Sabattini, Annalisa</b></p>
+              <p class="card-text">Data: <b>2021</b></p>
+              <p class="card-text">Istituzione fornitrice: <b><a class="link" href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Modena" target="_blank" title="Pagina wikipedia ASMO">Archivio di Stato di Modena<sup>Wikipedia</sup></a></b></p>
+              <p class="card-text">Tipologia: <i class="bi2 bi-file-text-fill" title="testo"></i></p>
+            </div>
+            <a href="#" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+            i metadati</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+     <!-- item 7 Libro Diane Ghirardo-->
+     <div class="col-md-4 mt-4">
+      <div class="card card-item">
+      </a><img src="Immagini/ghirardo.png" class="card-img-top" alt="Copertina volume I tesori di Lucrezia Borgia d'Este di Diane Ghirardo">
+      <div class="card-body">
+        <div class="card-metadata">
+          <h4 class="card-title text-center"><b>I tesori di Lucrezia Borgia d'Este</b></h4>
+          <p class="card-text">Creatore: <b><a class="link" href="http://viaf.org/viaf/85408379/#Ghirardo,_Diane." target="_blank" title="Identificativo VIAF di Ghirardo, Diane">Ghirardo, Diane<sup>VIAF</sup></a></b></p>
+          <p class="card-text">Data: <b>2019</b></p>
+          <p class="card-text">Casa editrice: <b>Edizioni Golinelli</b></p>
+          <p class="card-text">Tipologia: <i class="bi2 bi-book" title="Libro"></i></p>
+        </div>
+        <a href="#" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+        i metadati</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- item 8 Video mostra in pillole-->
+  <div class="col-md-4 mt-4">
+    <div class="card card-item">
+      <img src="Immagini/video.png" class="card-img-top" alt="Video Una mostra in pillole, gli Inventari delle Gioie e del Guardaroba, Archivio di Stato di Modena">
+      <div class="card-body">
+        <div class="card-metadata">
+          <h4 class="card-title text-center"><b>Mostra in pillole</b></h4>
+          <p class="card-text">Creatore: <b>Iannacci, Lorenza</b></p>
+          <p class="card-text">Data: <b>2020</b></p>
+          <p class="card-text">Istituzione fornitrice: <b><a class="link" href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Modena" target="_blank" title="Pagina wikipedia ASMO">Archivio di Stato di Modena<sup>Wikipedia</sup></a></b></p>
+          <p class="card-text">Tipologia: <i class="bi2 bi-youtube" title="Video"></i></p>
+        </div>
+        <a href="#" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+        i metadati</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- item 9 Libro delle ore-->
+  <div class="col-md-4 mt-4">
+    <div class="card card-item">
+      <img src="Immagini/libroore.png" class="card-img-top" alt="Libro delle ore di Lucrezia Borgia">
+      <div class="card-body">
+        <div class="card-metadata">
+          <h4 class="card-title text-center"><b>Il Libro delle Ore</b></h4>
+          <p class="card-text">Segnatura: <b>Ms. Lewis E 119</b></p>
+          <p class="card-text">Data: <b>1499</b></p>
+          <p class="card-text">Soggetto conservatore: <b><a class="link" href="https://openn.library.upenn.edu/Data/0023/html/lewis_e_119.html" target="_blank" title="Sito Free Library Philadelphia">Philadelphia, Free Library</a></b></p>
+          <p class="card-text">Tipologia: <i class="bi2 bi-card-image" title="Libro"></i></p>
+        </div>
+        <a href="item.html" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+        i metadati</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <!-- item 10 Cornice-->
+  <div class="col-md-4 mt-4">
+    <div class="card card-item">
+      <img src="Immagini/cornice1.png" class="card-img-top" alt="Cornice per specchio in legno di noce parzialmente dorato">
+      <div class="card-body">
+        <div class="card-metadata">
+          <h4 class="card-title text-center"><b>Cornice per specchio</b></h4>
+          <p class="card-text">Creatore: <b>Anonimo</b></p>
+          <p class="card-text">Data: <b>1509-1520 ca.</b></p>
+          <p class="card-text">Soggetto conservatore: <b><a class="link" href="https://it.wikipedia.org/wiki/Victoria_and_Albert_Museum" target="_blank" title="Pagina wikipedia Victoria and Albert Museum">Victoria and Albert Museum, Londra <sup>Wikipedia</sup></a></b></p>
+          <p class="card-text">Tipologia: <i class="bi2 bi-card-image" title="Libro"></i></p>
+        </div>
+        <a href="item.html" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+        i metadati</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- item 11 Incisione-->
+  <div class="col-md-4 mt-4">
+    <div class="card card-item">
+      <img src="Immagini/incisione.png" class="card-img-top"alt="Lucrezia Borgia presenta il figlio Ercole II al Santo patrono di Ferrara San Maurelio, incisione">
+      <div class="card-body">
+        <div class="card-metadata">
+          <h4 class="card-title text-center"><b>Lucrezia Borgia presenta il figlio Ercole II al Santo patrono di Ferrara San Maurelio </b></h4>
+          <p class="card-text">Creatore: <b>Lelio da Foligno, G. A.</b></p>
+          <p class="card-text">Data: <b>1514 ca.</b></p>
+          <p class="card-text">Soggetto conservatore: <b><a class="link" href="https://it.wikipedia.org/wiki/Basilica_di_San_Giorgio_fuori_le_mura" target="_blank" title="Pagina wikipedia Basilica di San Giorgio, Ferrara">Basilica di San Giorgio, Ferrara<sup>Wikipedia</sup></a></b></p>
+          <p class="card-text">Tipologia: <i class="bi2 bi-card-image" title="Libro"></i></p>
+        </div>
+        <a href="item.html" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+        i metadati</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- item 12 Ritratto di Lucrezia Borgia-->
+  <div class="col-md-4 mt-4">
+    <div class="card card-item">
+      <img src="Immagini/ritratto.png" class="card-img-top"alt="Ritratto di Lucrezia Borgia, Battsita Dossi">
+      <div class="card-body">
+        <div class="card-metadata">
+          <h4 class="card-title text-center"><b>Ritratto di Lucrezia Borgia</b></h4>
+          <p class="card-text">Creatore: <b><a class="link" href="http://viaf.org/viaf/89587384/#Battista_Dossi_pittore_italiano" target="_blank" title="Identificativo VIAF di Dossi, Battista">Dossi, Battista<sup>VIAF</sup></a></b></p>
+          <p class="card-text">Data: <b>1520 ca.</b></p>
+          <p class="card-text">Soggetto conservatore: <b><a class="link" href="https://it.wikipedia.org/wiki/National_Gallery_of_Victoria" target="_blank" title="Pagina wikipedia National Gallery of Victoria, Melbourne">National Gallery of Victoria, Melbourne<sup>Wikipedia</sup></a></b></p>
+          <p class="card-text">Tipologia: <i class="bi2 bi-card-image" title="Libro"></i></p>
+        </div>
+        <a href="item.html" class="btn btn-secondary mt-3 center" title="Tutti i metadati">Tutti
+        i metadati</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- pagination -->
+<div class="row">
+  <div class="col-md-12 mt-4 text-center">
+    <nav>
+      <ul class="pagination pagination-sm justify-content-center">
+        <li class="page-item" id="pagine"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+        <li class="page-item active" id="pagine"><a class="page-link" href="#">1</a></li>
+        <li class="page-item" id="pagine"><a class="page-link" href="#">2</a></li>
+        <li class="page-item" id="pagine"><a class="page-link" href="#">3</a></li>
+        <li class="page-item" id="pagine"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</div>
+
+<!-- sidebar dx-->
+<div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+  <aside>
+    <div>
+      <a href="#" class="link mt-5" title="Informazioni"><i class="bi bi-question-square"></i> <span>Informazioni</span></a>
+    </div>
+    <!-- linea divisoria  -->
+    <div class="dropdown-divider mt-4" style="border-color: #5e080a;"></div>
+    <!-- può interessarti anche -->
+    <div class="container background-yellow pt-3 pb-3 aside">
+      <h4>Ti può interessare anche...</h4>
+      <p><img class="d-block w-100 pt-2" src="Immagini/lettereghirardo.jpeg" alt="Lucrezia Borgia Lettere 1494-1519, Ghirardo" title="Lucrezia Borgia Lettere 1494-1519, Ghirardo"></p>
+      <p class="text-center"><button class="btn btn-secondary mt-3"><a class="linktornasu" href="https://www.amazon.it/Lettere-Lucrezia-Borgia-1494-1519-Ghirardo/dp/8831904124" title="Link Amazon" target="_blank">Acquistalo ora</a></button></p>
+      <p><img class="d-block w-100 pt-2" src="Immagini/librobellonci.jpeg" alt="Lucrezia Borgia, romanzo di Maria Bellonci" title="Lucrezia Borgia, romanzo di Maria Bellonci"></p>
+      <p class="text-center"><button class="btn btn-secondary mt-3"><a class="linktornasu" href="https://www.amazon.it/Lucrezia-Borgia-Maria-Bellonci/dp/8804689994/ref=asc_df_8804689994/?tag=googshopit-21&linkCode=df0&hvadid=407944040807&hvpos=&hvnetw=g&hvrand=14805078176317943612&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008141&hvtargid=pla-875890981354&psc=1&tag=&ref=&adgrpid=86164770143&hvpone=&hvptwo=&hvadid=407944040807&hvpos=&hvnetw=g&hvrand=14805078176317943612&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008141&hvtargid=pla-875890981354" title="Link Amazon" target="_blank">Acquistalo ora</a></button></p>
+    </div>
+    <!-- linea divisoria  -->
+    <div class="dropdown-divider" style="border-color: #5e080a;"></div>
+  </aside>
+</div>
+
+</div>
+</section>
+</main>
+
+<!-- torna su-->
+<section class="container-fluid bg-dark pt-1" title="Torna su">
+ <p align="center"><a href="#su" class="linktornasu"><i class="bi bi-arrow-up-square"></i></a></p>
+</section>
+
+<!--footer-->
+<footer>
+  <div class= "container-fluid background-dark pt-3 pb-3" id="contatti">
+    <p class="text-justify ml-3 mr-3 pt-3">Questo progetto è stato realizzato ai fini della prova d'esame del corso Digital Humanities e patrimonio culturale, tenuto dalla prof.ssa Francesca Tomasi, nell'ambito del corso di laurea in Italianistica dell'Università di Bologna. Si ringrazia per la collaborazione Lorenza Iannacci, direttrice dell'Archivio di Stato di Modena.</p>
+    <div class="row">
+      <div class="col-md-6 mt-2">
+        <h5 class="text-justify ml-3"><b>I Tesori di Lucrezia Borgia</b></h5>
+        <ul>
+          <li><a class="link" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+            title="Licenza Creative Commons"><img alt="Licenza Creative Commons" style="width: 60px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/> Licenza</a></li>
+            <li>&copy; Giulia Sanguin</a></li>
+            <li><i class="bi bi-envelope"></i> Per contattarmi scrivi a <a class="scrivimi" href="mailto:giulia.sanguin@studio.unibo.it" target="_blank">giulia.sanguin@studio.unibo.it</a></li>
+            <li><a class="digitalhumanitiesepatrimonioculturale" href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/444725" target="_blank">Digital Humanities e Patrimonio culturale, A.a. 2020/2021</a></li>
+            <li><a class="italianistica" href="https://corsi.unibo.it/magistrale/ItalianisticaCultureLetterarieLinguistica" target="_blank">Corso di Laurea in Italianistica</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 mt-2">
+          <h5 class="text-justify ml-3"><b>Archivio di Stato di Modena<b></h5>
+            <a class="link-asmo ml-5" href="https://www.asmo.beniculturali.it/home" target="_blank" title="Sito ufficiale ASMO"><img src="Immagini/asmologo.jpeg" class="logoasmo" alt="Logo Archivio di Stato di Modena"/></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+  </html>
